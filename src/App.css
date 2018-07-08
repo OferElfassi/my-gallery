@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.gallery{
+  width: 80%;
+  height: 80%;
+  border: 0.1em solid black;
+  border-radius: 0.75em;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+.picture{
+  width: 20%;
+  height: 40%;
+  border: 0.1em solid black;
+  border-radius: 0.75em;
+  cursor: pointer;
+}
+.inputEl{
+display: none;
+
+}
+
+img{
+  width: 80%;
+  height: 80%;
+}
